@@ -1,0 +1,170 @@
+body{
+	background-color: tan;
+}
+#playButton{
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 90px;
+	width: 100px;
+	position:absolute;
+	top: 74%;
+	left:55%;
+	background-color:black;
+	background-position:fixed;
+	font-family: 'VT323', monospace;
+	 
+}
+#pauseButton{
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 90px;
+	width: 100px;
+	position:absolute;
+	top: 74%;
+	left:45%;
+	background-color: black;
+	background-position: center;
+	font-family: 'VT323', monospace; 
+}
+#nextButton{
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 90px;
+	width: 100px;
+	position:absolute;
+	background-color: black;
+	top: 74%;
+	left:35%;
+	background-position: center;
+	font-family: 'VT323', monospace; 
+}
+#displayBox{
+	border: 2px solid black;
+	height:46px;
+	width: 500px;
+	position:absolute;
+	background-color: green;
+	top: 65.5%;
+	left:30%;
+	font-family: 'VT323', monospace;
+	color: black;
+	font-size: 20pt;
+}
+#speaker{
+	border: 2px solid black;
+	background-color: black;
+	height: 180px;
+	width: 500px;
+	position:absolute;
+	background-image: url('steel2.jpg');
+	background-position: fixed;
+	top: 65%;
+	left:30%;
+}
+#wrapper{
+	border: 2px solid black;
+	background-image: url('jukebox5.jpg');
+	background-position: cover;
+	height: 300px;
+	width: 500px;
+	position:absolute;
+	top:24%;
+	left: 30%;
+
+}
+.wall{
+	border: 0px solid black;
+	background-image: url();
+	height: 500px;
+	width: 250px;
+	position:absolute;
+	background-image: url('speaker.jpg');
+	
+
+}
+#leftwall{
+	position: absolute;
+	left: 11.8%;
+	top:16.7%;
+}
+#rightwall{
+	position: absolute;
+	left:66.8%;
+	top:16.7%;
+
+}
+#upperwall{
+	position: absolute;
+	border: 2px solid black;
+	background-image: url('upperwall.jpg');
+	height: 50px;
+	width: 997px;
+	position:absolute;
+	background-color: black;
+	background-position: center;
+	left:11.8%;
+	top:16%;
+}
+.button{
+	border: 0px solid black;
+	height: 40px;
+	width: 40px;
+	position:absolute;
+    background-color: rgba(255,255,255,0.5);
+	font-size: 30pt;
+	background-position: center;
+	font-family: 'VT323', monospace; 
+
+}
+
+#next{
+	position: absolute;
+	top: 78%;
+	left:36%;
+	font-family: 'VT323', monospace; 
+	text-align: center;
+	color: red;
+	background-color: black; 
+}
+#play{
+	position: absolute;
+	top: 78%;
+	left:56%;
+	font-family: 'VT323', monospace; 
+	text-align: center;
+	color: red;
+	background-color: black;
+}
+#pause{
+	position: absolute;
+	top: 78%;
+	left:45.5%;
+	font-family: 'VT323', monospace; 
+	text-align: center;
+	color: red;
+	background-color: black;
+}
+#upperwall2{
+	position: absolute;
+	border: 2px solid black;
+	background-image: url('upperwall.jpg');
+	height: 50px;
+	width: 997px;
+	position:absolute;
+	background-color: black;
+	background-position: center;
+	left:11.8%;
+	top:58%;
+}
+#upperwall3{
+	position: absolute;
+	border: 2px solid black;
+	background-image: url('upperwall.jpg');
+	height: 50px;
+	width: 997px;
+	position:absolute;
+	background-color: black;
+	background-position: center;
+	left:11.8%;
+	top:90%;
+}
